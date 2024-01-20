@@ -1,0 +1,29 @@
+
+
+
+.god{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    gap: 20px;
+    background-color: rgb(239, 239, 253);
+}
+
+.item{
+    border: 2px solid black;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(13, 247, 247);
+}
+
+@media ( max-width: 425px){
+    .god{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media ( min-width: 800px) {
+    .item{
+        grid-template-columns: repeat(3,1fr);
+    }
+}

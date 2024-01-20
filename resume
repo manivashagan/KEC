@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <h2>SELECTORS</h2>
+       <link rel="stylesheet"href="flex.css"/>
+    </head>
+    <body>
+        <div class="god">
+            <div class ="item">about</div>
+            <div class="item">features</div>
+            <div class="item">call</div>
+           <div class ="item">best</div>
+           <div class ="item">better</div>
+           <div class ="item">info</div>
+        </div>   
+    </body>
+</html>
